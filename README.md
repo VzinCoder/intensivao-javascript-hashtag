@@ -12,5 +12,6 @@ Bem-vindo ao repositório do Intensivão JavaScript da Hashtag, dedicado aos pro
 
 ![imagem audio book](./projeto01/images/image.png)
 
-- Descrição: Neste diretório, você encontrará o código relacionado ao projeto de Áudio Book. Sinta-se à vontade para explorar, sugerir melhorias ou compartilhar insights.
+
+Descrição: Neste diretório, você encontrará o código relacionado ao projeto de Áudio Book. Sinta-se à vontade para explorar, sugerir melhorias ou compartilhar insights.
 

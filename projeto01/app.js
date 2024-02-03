@@ -1,6 +1,7 @@
 const btnContainer = document.getElementById('button-container');
 const audio = document.querySelector('audio');
 const btnPlayPause = document.getElementById('play-pause');
+const divCap = document.getElementById('chapter') 
 
 const getAudioInfo = () => {
    const currentChapter = Number(audio.dataset.chapter);
@@ -20,6 +21,7 @@ const updateChapter = (delta) => {
    const isWithinLimits = newChapter >= minLimit && newChapter <= maxLimit;
    const updatedChapter = isWithinLimits ? newChapter : delta > 0 ? minLimit : maxLimit;
    setChapter(updatedChapter);
+   divCap.innerHTML = `Capítulo ${updatedChapter}`
    playAndPause();
 };
 
@@ -61,8 +63,6 @@ const handleClick = ({ target }) => {
       next: nextChapter,
       playPause: playAndPause
    };
-
-   console.log(elementId)
 
    const executeAction = options[elementId];
    executeAction();

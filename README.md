@@ -7,9 +7,11 @@ Bem-vindo ao repositório do Intensivão JavaScript da Hashtag, dedicado aos pro
 
 ### 1. Áudio Book
 
-- Descrição: Aplicativo interativo de Áudio Book.
-- Caminho do Código: /projeto01
-- Imagem:![imagem audio book](./projeto01/images/image.png)
 
--Breve Descrição: Neste diretório, você encontrará o código relacionado ao projeto de Áudio Book.
+- Caminho do Código: /projeto01
+- Imagem:
+
+![imagem audio book](./projeto01/images/image.png)
+
+
 
